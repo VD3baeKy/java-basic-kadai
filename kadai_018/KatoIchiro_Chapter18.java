@@ -10,7 +10,9 @@ public class KatoIchiro_Chapter18 extends Kato_Chapter18{ //子クラス
 	
 	// 【メソッド】
 	public void eachIntroduce() {  //抽象メソッドに具体的な処理を記述
-		System.out.println("好きな食べ物はリンゴです");
+		System.out.println("名前は" + familyName + this.givenName + "です");
+		commonIntroduce();
+		System.out.println("好きな食べ物はリンゴです\n");
 	
 	}
 }
